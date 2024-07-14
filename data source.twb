@@ -1,0 +1,2292 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='HR data (HR Data)' inline='true' name='federated.0m63nyj1n6c83u19qm9lu0b725vz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HR Data' name='excel-direct.0l3htmf0ncl30q12kabfa165p4pj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ASUS/Downloads/HR Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0l3htmf0ncl30q12kabfa165p4pj' name='HR data' table='[&apos;HR data$&apos;]' type='table'>
+          <columns gridOrigin='A1:AM1471:no:A1:AM1471:0' header='yes' outcome='6'>
+            <column datatype='string' name='Attrition' ordinal='0' />
+            <column datatype='string' name='Business Travel' ordinal='1' />
+            <column datatype='string' name='CF_age band' ordinal='2' />
+            <column datatype='string' name='CF_attrition label' ordinal='3' />
+            <column datatype='string' name='Department' ordinal='4' />
+            <column datatype='string' name='Education Field' ordinal='5' />
+            <column datatype='string' name='emp no' ordinal='6' />
+            <column datatype='integer' name='Employee Number' ordinal='7' />
+            <column datatype='string' name='Gender' ordinal='8' />
+            <column datatype='string' name='Job Role' ordinal='9' />
+            <column datatype='string' name='Marital Status' ordinal='10' />
+            <column datatype='string' name='Over Time' ordinal='11' />
+            <column datatype='string' name='Over18' ordinal='12' />
+            <column datatype='integer' name='Training Times Last Year' ordinal='13' />
+            <column datatype='integer' name='Age' ordinal='14' />
+            <column datatype='integer' name='CF_current Employee' ordinal='15' />
+            <column datatype='integer' name='Daily Rate' ordinal='16' />
+            <column datatype='integer' name='Distance From Home' ordinal='17' />
+            <column datatype='string' name='Education' ordinal='18' />
+            <column datatype='integer' name='Employee Count' ordinal='19' />
+            <column datatype='integer' name='Environment Satisfaction' ordinal='20' />
+            <column datatype='integer' name='Hourly Rate' ordinal='21' />
+            <column datatype='integer' name='Job Involvement' ordinal='22' />
+            <column datatype='integer' name='Job Level' ordinal='23' />
+            <column datatype='integer' name='Job Satisfaction' ordinal='24' />
+            <column datatype='integer' name='Monthly Income' ordinal='25' />
+            <column datatype='integer' name='Monthly Rate' ordinal='26' />
+            <column datatype='integer' name='Num Companies Worked' ordinal='27' />
+            <column datatype='integer' name='Percent Salary Hike' ordinal='28' />
+            <column datatype='integer' name='Performance Rating' ordinal='29' />
+            <column datatype='integer' name='Relationship Satisfaction' ordinal='30' />
+            <column datatype='integer' name='Standard Hours' ordinal='31' />
+            <column datatype='integer' name='Stock Option Level' ordinal='32' />
+            <column datatype='integer' name='Total Working Years' ordinal='33' />
+            <column datatype='integer' name='Work Life Balance' ordinal='34' />
+            <column datatype='integer' name='Years At Company' ordinal='35' />
+            <column datatype='integer' name='Years In Current Role' ordinal='36' />
+            <column datatype='integer' name='Years Since Last Promotion' ordinal='37' />
+            <column datatype='integer' name='Years With Curr Manager' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0l3htmf0ncl30q12kabfa165p4pj' name='HR data' table='[&apos;HR data$&apos;]' type='table'>
+          <columns gridOrigin='A1:AM1471:no:A1:AM1471:0' header='yes' outcome='6'>
+            <column datatype='string' name='Attrition' ordinal='0' />
+            <column datatype='string' name='Business Travel' ordinal='1' />
+            <column datatype='string' name='CF_age band' ordinal='2' />
+            <column datatype='string' name='CF_attrition label' ordinal='3' />
+            <column datatype='string' name='Department' ordinal='4' />
+            <column datatype='string' name='Education Field' ordinal='5' />
+            <column datatype='string' name='emp no' ordinal='6' />
+            <column datatype='integer' name='Employee Number' ordinal='7' />
+            <column datatype='string' name='Gender' ordinal='8' />
+            <column datatype='string' name='Job Role' ordinal='9' />
+            <column datatype='string' name='Marital Status' ordinal='10' />
+            <column datatype='string' name='Over Time' ordinal='11' />
+            <column datatype='string' name='Over18' ordinal='12' />
+            <column datatype='integer' name='Training Times Last Year' ordinal='13' />
+            <column datatype='integer' name='Age' ordinal='14' />
+            <column datatype='integer' name='CF_current Employee' ordinal='15' />
+            <column datatype='integer' name='Daily Rate' ordinal='16' />
+            <column datatype='integer' name='Distance From Home' ordinal='17' />
+            <column datatype='string' name='Education' ordinal='18' />
+            <column datatype='integer' name='Employee Count' ordinal='19' />
+            <column datatype='integer' name='Environment Satisfaction' ordinal='20' />
+            <column datatype='integer' name='Hourly Rate' ordinal='21' />
+            <column datatype='integer' name='Job Involvement' ordinal='22' />
+            <column datatype='integer' name='Job Level' ordinal='23' />
+            <column datatype='integer' name='Job Satisfaction' ordinal='24' />
+            <column datatype='integer' name='Monthly Income' ordinal='25' />
+            <column datatype='integer' name='Monthly Rate' ordinal='26' />
+            <column datatype='integer' name='Num Companies Worked' ordinal='27' />
+            <column datatype='integer' name='Percent Salary Hike' ordinal='28' />
+            <column datatype='integer' name='Performance Rating' ordinal='29' />
+            <column datatype='integer' name='Relationship Satisfaction' ordinal='30' />
+            <column datatype='integer' name='Standard Hours' ordinal='31' />
+            <column datatype='integer' name='Stock Option Level' ordinal='32' />
+            <column datatype='integer' name='Total Working Years' ordinal='33' />
+            <column datatype='integer' name='Work Life Balance' ordinal='34' />
+            <column datatype='integer' name='Years At Company' ordinal='35' />
+            <column datatype='integer' name='Years In Current Role' ordinal='36' />
+            <column datatype='integer' name='Years Since Last Promotion' ordinal='37' />
+            <column datatype='integer' name='Years With Curr Manager' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM1471:no:A1:AM1471:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attrition</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Attrition]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Attrition</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business Travel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Business Travel]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Business Travel</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CF_age band</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CF_age band]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>CF_age band</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CF_attrition label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CF_attrition label]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>CF_attrition label</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education Field</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education Field]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Education Field</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp no</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[emp no]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>emp no</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee Number]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Employee Number</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Role</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Role]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Job Role</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Marital Status]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Marital Status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Over Time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Over Time]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Over Time</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Over18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Over18]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Over18</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Training Times Last Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Training Times Last Year]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Training Times Last Year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CF_current Employee</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CF_current Employee]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>CF_current Employee</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily Rate]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Daily Rate</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distance From Home</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Distance From Home]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Distance From Home</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee Count]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Employee Count</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Environment Satisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Environment Satisfaction]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Environment Satisfaction</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hourly Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hourly Rate]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Hourly Rate</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Involvement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job Involvement]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Job Involvement</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job Level]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Job Level</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Satisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job Satisfaction]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Job Satisfaction</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly Income]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Monthly Income</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly Rate]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Monthly Rate</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Num Companies Worked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Num Companies Worked]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Num Companies Worked</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent Salary Hike</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Percent Salary Hike]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Percent Salary Hike</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Performance Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Performance Rating]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Performance Rating</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship Satisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Relationship Satisfaction]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Relationship Satisfaction</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Standard Hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Standard Hours]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Standard Hours</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stock Option Level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stock Option Level]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Stock Option Level</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Working Years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Working Years]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Total Working Years</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work Life Balance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Work Life Balance]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Work Life Balance</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years At Company</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years At Company]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Years At Company</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years In Current Role</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years In Current Role]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Years In Current Role</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years Since Last Promotion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years Since Last Promotion]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Years Since Last Promotion</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years With Curr Manager</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years With Curr Manager]</local-name>
+            <parent-name>[HR data]</parent-name>
+            <remote-alias>Years With Curr Manager</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CF age band' datatype='string' name='[CF_age band]' role='dimension' type='nominal' />
+      <column caption='CF attrition label' datatype='string' name='[CF_attrition label]' role='dimension' type='nominal' />
+      <column caption='CF current Employee' datatype='integer' name='[CF_current Employee]' role='measure' type='quantitative' />
+      <column caption='Attrition Count' datatype='integer' name='[Calculation_1164462018176749568]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [Attrition]=&quot;Yes&quot;THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Attrition Rate' datatype='real' name='[Calculation_1164462018177847297]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1164462018176749568])/SUM([Employee Count])' />
+      </column>
+      <column caption='Active Employees' datatype='integer' name='[Calculation_1164462018178621442]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Employee Count])-SUM([Calculation_1164462018176749568])' />
+      </column>
+      <column datatype='integer' name='[Employee Number]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='HR data' datatype='table' name='[__tableau_internal_object_id__].[HR data_D707919907E34CB68EEC4D133B4A5D46]' role='measure' type='quantitative' />
+      <column caption='Emp No' datatype='string' name='[emp no]' role='dimension' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ASUS/AppData/Local/Temp/TableauTemp/#TableauTemp_1qtgnss03xnc0u1g4b0os0pmv93j.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/14/2024 04:52:08 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Attrition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Attrition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Attrition</remote-alias>
+              <ordinal>0</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Business Travel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Business Travel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Business Travel</remote-alias>
+              <ordinal>1</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CF_age band</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CF_age band]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CF_age band</remote-alias>
+              <ordinal>2</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CF_attrition label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CF_attrition label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CF_attrition label</remote-alias>
+              <ordinal>3</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Department</remote-alias>
+              <ordinal>4</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education Field</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education Field]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education Field</remote-alias>
+              <ordinal>5</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>emp no</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[emp no]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>emp no</remote-alias>
+              <ordinal>6</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1470</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employee Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employee Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employee Number</remote-alias>
+              <ordinal>7</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1470</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>8</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Role</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Role]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Role</remote-alias>
+              <ordinal>9</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Marital Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Marital Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Marital Status</remote-alias>
+              <ordinal>10</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Over Time</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Over Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Over Time</remote-alias>
+              <ordinal>11</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Over18</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Over18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Over18</remote-alias>
+              <ordinal>12</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Training Times Last Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Training Times Last Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Training Times Last Year</remote-alias>
+              <ordinal>13</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>14</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CF_current Employee</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CF_current Employee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CF_current Employee</remote-alias>
+              <ordinal>15</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Daily Rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Daily Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Daily Rate</remote-alias>
+              <ordinal>16</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>790</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Distance From Home</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Distance From Home]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Distance From Home</remote-alias>
+              <ordinal>17</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education</remote-alias>
+              <ordinal>18</ordinal>
+              <family>HR data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employee Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employee Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employee Count</remote-alias>
+              <ordinal>19</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Environment Satisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Environment Satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Environment Satisfaction</remote-alias>
+              <ordinal>20</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hourly Rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hourly Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hourly Rate</remote-alias>
+              <ordinal>21</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Involvement</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Job Involvement]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Involvement</remote-alias>
+              <ordinal>22</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Job Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Level</remote-alias>
+              <ordinal>23</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Satisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Job Satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Satisfaction</remote-alias>
+              <ordinal>24</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly Income</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Monthly Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly Income</remote-alias>
+              <ordinal>25</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1174</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly Rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Monthly Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly Rate</remote-alias>
+              <ordinal>26</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1267</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Num Companies Worked</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Num Companies Worked]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Num Companies Worked</remote-alias>
+              <ordinal>27</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Percent Salary Hike</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Percent Salary Hike]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Percent Salary Hike</remote-alias>
+              <ordinal>28</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Performance Rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Performance Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Performance Rating</remote-alias>
+              <ordinal>29</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relationship Satisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Relationship Satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relationship Satisfaction</remote-alias>
+              <ordinal>30</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Standard Hours</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Standard Hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Standard Hours</remote-alias>
+              <ordinal>31</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stock Option Level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Stock Option Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stock Option Level</remote-alias>
+              <ordinal>32</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Working Years</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Working Years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Working Years</remote-alias>
+              <ordinal>33</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Work Life Balance</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Work Life Balance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Work Life Balance</remote-alias>
+              <ordinal>34</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years At Company</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years At Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years At Company</remote-alias>
+              <ordinal>35</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years In Current Role</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years In Current Role]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years In Current Role</remote-alias>
+              <ordinal>36</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years Since Last Promotion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years Since Last Promotion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years Since Last Promotion</remote-alias>
+              <ordinal>37</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years With Curr Manager</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years With Curr Manager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years With Curr Manager</remote-alias>
+              <ordinal>38</ordinal>
+              <family>HR data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HR data_D707919907E34CB68EEC4D133B4A5D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#4797a7'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#cae6f2'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='HR data' id='HR data_D707919907E34CB68EEC4D133B4A5D46'>
+            <properties context=''>
+              <relation connection='excel-direct.0l3htmf0ncl30q12kabfa165p4pj' name='HR data' table='[&apos;HR data$&apos;]' type='table'>
+                <columns gridOrigin='A1:AM1471:no:A1:AM1471:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Attrition' ordinal='0' />
+                  <column datatype='string' name='Business Travel' ordinal='1' />
+                  <column datatype='string' name='CF_age band' ordinal='2' />
+                  <column datatype='string' name='CF_attrition label' ordinal='3' />
+                  <column datatype='string' name='Department' ordinal='4' />
+                  <column datatype='string' name='Education Field' ordinal='5' />
+                  <column datatype='string' name='emp no' ordinal='6' />
+                  <column datatype='integer' name='Employee Number' ordinal='7' />
+                  <column datatype='string' name='Gender' ordinal='8' />
+                  <column datatype='string' name='Job Role' ordinal='9' />
+                  <column datatype='string' name='Marital Status' ordinal='10' />
+                  <column datatype='string' name='Over Time' ordinal='11' />
+                  <column datatype='string' name='Over18' ordinal='12' />
+                  <column datatype='integer' name='Training Times Last Year' ordinal='13' />
+                  <column datatype='integer' name='Age' ordinal='14' />
+                  <column datatype='integer' name='CF_current Employee' ordinal='15' />
+                  <column datatype='integer' name='Daily Rate' ordinal='16' />
+                  <column datatype='integer' name='Distance From Home' ordinal='17' />
+                  <column datatype='string' name='Education' ordinal='18' />
+                  <column datatype='integer' name='Employee Count' ordinal='19' />
+                  <column datatype='integer' name='Environment Satisfaction' ordinal='20' />
+                  <column datatype='integer' name='Hourly Rate' ordinal='21' />
+                  <column datatype='integer' name='Job Involvement' ordinal='22' />
+                  <column datatype='integer' name='Job Level' ordinal='23' />
+                  <column datatype='integer' name='Job Satisfaction' ordinal='24' />
+                  <column datatype='integer' name='Monthly Income' ordinal='25' />
+                  <column datatype='integer' name='Monthly Rate' ordinal='26' />
+                  <column datatype='integer' name='Num Companies Worked' ordinal='27' />
+                  <column datatype='integer' name='Percent Salary Hike' ordinal='28' />
+                  <column datatype='integer' name='Performance Rating' ordinal='29' />
+                  <column datatype='integer' name='Relationship Satisfaction' ordinal='30' />
+                  <column datatype='integer' name='Standard Hours' ordinal='31' />
+                  <column datatype='integer' name='Stock Option Level' ordinal='32' />
+                  <column datatype='integer' name='Total Working Years' ordinal='33' />
+                  <column datatype='integer' name='Work Life Balance' ordinal='34' />
+                  <column datatype='integer' name='Years At Company' ordinal='35' />
+                  <column datatype='integer' name='Years In Current Role' ordinal='36' />
+                  <column datatype='integer' name='Years Since Last Promotion' ordinal='37' />
+                  <column datatype='integer' name='Years With Curr Manager' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0m63nyj1n6c83u19qm9lu0b725vz'>
+      <datasources>
+        <datasource caption='HR data (HR Data)' name='federated.0m63nyj1n6c83u19qm9lu0b725vz' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0m63nyj1n6c83u19qm9lu0b725vz'>
+        <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+        <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Education:nk]'>
+        <groupfilter function='level-members' level='[none:Education:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Attrition by Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#72b966' fontname='Tableau Semibold' fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HR data (HR Data)' name='federated.0m63nyj1n6c83u19qm9lu0b725vz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m63nyj1n6c83u19qm9lu0b725vz'>
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1164462018176749568]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Attrition]=&quot;Yes&quot;THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1164462018176749568]' derivation='Sum' name='[sum:Calculation_1164462018176749568:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Education:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' value='32' />
+            <encoding attr='space' class='1' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' field-type='quantitative' fold='true' max='175' min='-54' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' field-type='quantitative' max='175' min='-54' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='1' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' scope='cols' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='46' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='72' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='text-align' data-class='subtotal' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='Tableau Semibold' />
+            <format attr='color' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='#d3b348' />
+            <format attr='font-size' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='9' />
+            <format attr='text-align' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='right' />
+            <format attr='text-orientation' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' value='0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' />
+              <text column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' />
+              <text column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Gender:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Attrition Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.36182320117950439' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' />
+              <text column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2853591442108154' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]</rows>
+        <cols>([federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk] + [federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk])</cols>
+      </table>
+      <simple-id uuid='{DF1FE6BA-AFF9-4810-AF90-4BC746419C66}' />
+    </worksheet>
+    <worksheet name='KPI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HR data (HR Data)' name='federated.0m63nyj1n6c83u19qm9lu0b725vz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m63nyj1n6c83u19qm9lu0b725vz'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Attrition]' role='dimension' type='nominal' />
+            <column caption='Attrition Count' datatype='integer' name='[Calculation_1164462018176749568]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Attrition]=&quot;Yes&quot;THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Attrition Rate' datatype='real' name='[Calculation_1164462018177847297]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1164462018176749568])/SUM([Employee Count])' />
+            </column>
+            <column caption='Active Employees' datatype='integer' name='[Calculation_1164462018178621442]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Employee Count])-SUM([Calculation_1164462018176749568])' />
+            </column>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Employee Count]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1164462018176749568]' derivation='Sum' name='[sum:Calculation_1164462018176749568:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Employee Count]' derivation='Sum' name='[sum:Employee Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1164462018177847297]' derivation='User' name='[usr:Calculation_1164462018177847297:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1164462018178621442]' derivation='User' name='[usr:Calculation_1164462018178621442:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Employee Count:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018177847297:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018178621442:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[avg:Age:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Employee Count:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018177847297:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018178621442:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]</column>
+            <column>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Education:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018177847297:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Employee Count:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[usr:Calculation_1164462018178621442:qk]' value='n#,##0;-#,##0' />
+            <format attr='text-format' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[avg:Age:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='total' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='Tableau Semibold' />
+            <format attr='font-size' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='15' />
+            <format attr='font-weight' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='normal' />
+            <format attr='font-style' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='normal' />
+            <format attr='text-align' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='center' />
+            <format attr='color' field='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]' value='#72b966' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[Multiple Values]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#a0cbe8' fontsize='28'>&lt;</run>
+                <run fontcolor='#a0cbe8' fontsize='28'>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[Multiple Values]</run>
+                <run fontcolor='#a0cbe8' fontsize='28'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{BDD80B01-15A5-441D-8091-B36D3E9AE762}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='HR Analytics Dashboard'>
+      <style />
+      <size maxheight='900' maxwidth='1580' minheight='900' minwidth='1580' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98222' id='3' is-scaled='1' param='C:/Users/ASUS/Downloads/HR background.pptx.png' type-v2='bitmap' w='98988' x='506' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='14667' id='5' name='KPI' show-title='false' w='83734' x='1203' y='10889' />
+        <zone h='15111' id='6' name='Attrition by Gender' w='12975' x='85759' y='10667' />
+        <zone h='7111' id='7' type-v2='text' w='31899' x='33228' y='2111'>
+          <formatted-text>
+            <run fontcolor='#75a1c7' fontname='Tableau Bold' fontsize='26'>HR Analytics Dashboard</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='14' param='vert' type-v2='layout-flow' w='98988' x='506' y='889'>
+                <zone fixed-size='280' forceUpdate='true' h='98222' id='3' is-fixed='true' is-scaled='1' param='C:/Users/ASUS/Downloads/HR background.pptx.png' type-v2='bitmap' w='98988' x='506' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7111' id='7' type-v2='text' w='31899' x='33228' y='2111'>
+                  <formatted-text>
+                    <run fontcolor='#75a1c7' fontname='Tableau Bold' fontsize='26'>HR Analytics Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='136' h='15111' id='6' is-fixed='true' name='Attrition by Gender' w='12975' x='85759' y='10667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='132' h='14667' id='5' is-fixed='true' name='KPI' show-title='false' w='83734' x='1203' y='10889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{886FC173-1719-49C0-A063-45C9933AE0DC}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[:Measure Names]</field>
+                  <field>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0m63nyj1n6c83u19qm9lu0b725vz].[sum:Calculation_1164462018176749568:qk]&quot;</value>
+                <value>237.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Education:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A838A37E-EA4A-4799-9295-45F9A55A66BC}' />
+    </window>
+    <window class='worksheet' name='Attrition by Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0m63nyj1n6c83u19qm9lu0b725vz].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0C59DB06-7AB5-4003-B2CB-AD803E381FA4}' />
+    </window>
+    <window class='dashboard' maximized='true' name='HR Analytics Dashboard'>
+      <viewpoints>
+        <viewpoint name='Attrition by Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0EDCA930-A874-44D9-A523-FA7645AAA457}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Attrition by Gender' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAD9UlEQVR4nO3bS2tcdRzG8d9MJpmkSZtom4LBggh20YW3vbh14yvwjfUldOfCneiqSxcq
+      XqoI0hJttObSNJPpXDI5LhQEIUPATgbzfD6rWcyBZzFf/odzmFbTNE1BqPa8B8A8CYBoAiCa
+      AIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIg
+      mgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKJ15j3g
+      svvg7r15T2AKJwDRBEA0ARBNAEQTANEEQLQzAzh8fL92f/546sWTca+GvV9f+Ci4KGe+B+gf
+      fF9Lq1t1sP1ZTUaHtbB0tQZHj6rVWqj1V96rw537tbb5bk3GvTrY/rTWNt+ptRtvX+R2+M/O
+      PAE6y9fr+msf1vOnP9aov1Onk2Etr92qtRtvVW/v6xoP9mrY266T4WGNnz+p0bGTgP+fM0+A
+      9a33q6rq5u2PajzYrU53o6ra1W4v1vK112s82K9Od71a7aVafflOLSytX9RmeGHODGBpZfOv
+      L3Q3/v7x/+vC7kv/fF66NoNpMHueAhFNAEQTANEEQDQBEM0fYmbsza2b857AFK2maZp5j4B5
+      cQtENAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQT
+      ANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARCt
+      M+8Bl90Pe/15T2AKAczY0Wgy7wlM4RaIaAIgmgCIJgCiCYBo5w5gcPSoTiejGjx7WM3pSVVV
+      nU5GdTJ6NrNxMGvnDuDpL5/X8e5XtfPd3Rr2tuvJT/dq2Nuu/sGD2nv4SQ2PH89yJ8zEuQNY
+      XNms4/1vq3v1Vo36v1d7oVv9gwc17v9WJ4P9Ot77ZpY7YSbO/SLsysbtOlndqs7itWq1OzXq
+      79TKxhu10LlSvT++rO7aq7PcCTPRapqmmfeIy+yLnaN5T2AKT4GIJgCiCYBoAiCaAIgmAKJ5
+      DEo0JwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRAtD8Bkhmfr/DuOQkA
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='HR Analytics Dashboard' width='192'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='KPI' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
